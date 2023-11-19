@@ -1,0 +1,317 @@
+@import url('https://fonts.cdnfonts.com/css/panthera');
+@import url('https://db.onlinewebfonts.com/c/87e0d5d6ba27de27e759ab254219b6b1?family=BEYNO');
+@import url('https://fonts.cdnfonts.com/css/wakanda-forever');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --white-color:#FFFFFF;
+    --light-pink:#F2CEF2;
+    --light-purple:#9E91B7;
+    --purple-color:#DF99F2;
+    --gradient-blue-color:#3D2DA6;
+    --blue-color:#07338C;
+    --dark-blue-color:#021740;
+}
+
+.scroll{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    left:10px;
+   
+}
+
+body{
+    background-image: radial-gradient(126.67% 350.28% at -21.35% 0%,
+#11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%,
+rgba(2, 23, 64, 0) 100%);
+ color: var(--white-color);
+}
+nav {font-family:'BEYNO';
+    font-weight: 400;
+    font-size: 20px; 
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.blackpanther{
+    background-image: url('../Illustrations + Logo/All pages/arrière_plan.png'); 
+
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  #navbar .left-logo img {
+    padding: 5px;
+  }
+  #navbar .menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "BEYNO";
+    font-size: 17px;
+  }
+  .first-class {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 150px;
+  }
+  
+  .first-class .text-one {
+    width: 100%;
+    padding: 70px;
+    color: white;
+  }
+  .first-class .text-one .title {
+    font-family: "Panthera", sans-serif;
+    color: var(--light-purple);
+    font-size: 68px;
+  }
+  .first-class .text-one h2 {
+    font-family: "BEYNO";
+    font-size: 32px;
+    color: var(--light-purple);
+  }
+  .first-class .text-one p {
+    font-family: "Cantarell", sans-serif;
+    font-size: 14px;
+    
+  }
+  .first-class .text-one a {
+    font-family: "Cantarell", sans-serif;
+  }
+
+
+
+
+
+  .first-section {
+    display: flex;
+    background-color: #021740;
+    padding: 10px;
+  }
+  .first-section .container h2 {
+    font-family: "BEYNO";
+    font-size: 32px;
+  }
+  .first-section .container p, a {
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+  }
+  .first-section img {
+    margin: 20px;
+  }
+
+  .first_section .image1 {
+    margin-top: -100px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container h2 {
+    color: var(--pink-light);
+  }
+  .container p,
+  a {
+    color: white;
+  }
+
+
+
+
+  .second-section .container {
+    color: white;
+    width: 40%;
+    margin: 50px;
+  }
+  .second-section .container h2 {
+    font-family: "BEYNO";
+    font-size: 32px;
+    color: var(--light-pink);
+  }
+  .second-section .container p {
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+   
+  }
+  .second-section .tchalla {
+    background-color: azure;
+    padding: 30px;
+    height:900px;
+    margin: 50px;
+  }
+  .second-section .tchalla img {
+    margin-top: -100px;
+  }
+  .second-section .tchalla input {
+    background-color: var(--dark-blue-color);
+    color: white;
+  }
+  .second-section .tchalla p{
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+    color: var(--dark-blue-color);
+  }
+
+
+
+
+.tchalla h2{
+    text-align: center;
+}
+.first-class{
+    display: flex;
+}
+.second-section{
+    display: flex;
+}
+
+.final-class {
+    
+    display:flex;
+    justify-content: space-around;
+  }
+
+
+  .final-class .hero {
+    color: white;
+    width: 40%;
+  }
+  .final-class .hero h2 {
+    font-family: "BEYNO";
+    font-size: 32px;
+    color: var(--light-pink);
+  }
+  .final-class .hero p {
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+  }
+
+
+
+.final-class{
+    width:82%;
+    margin:20px;
+    display: flex;
+    
+}
+
+.formulaire{
+    
+   
+    background-image:url('../Illustrations + Logo/Accueil/Pantherhome7.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height:1000px;
+   
+    color:var(--dark-blue-color);
+    margin:100px auto;
+}
+
+.formulaire .form {
+    background-color: rgba(255, 255, 255, 0.688);
+    opacity: 40%;
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   border-radius: 200px;
+  
+  }
+
+
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: transparent;
+    padding-left: 100px;
+  }
+  .form p {
+    margin: 20px;
+  }
+  .form input[type=submit] {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 40px;
+    background-color: var(--light-pink);
+    border-radius: 38px;
+  }
+
+  .form input{
+    padding: 10px;
+    margin: 5px;
+    width: 535px;
+    height:20px;
+    background-color: var(--light-pink);
+    border-radius: 38px;
+  }
+  
+  
+  textarea {
+    width: 520px;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+
+footer{
+    background-repeat: no-repeat;
+    background-image: url('../Illustrations + Logo/All pages/back_footer.png');
+}
+.last-bg{
+    background-image: url('../Illustrations + Logo/All pages/arrière_plan.png');
+    height:180px;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    padding-left: 100px;
+    display: flex;
+    background-image: url('../Illustrations + Logo/All pages/back_footer.png');
+  }
+  .footer .last {
+    display: flex;
+  }
+  .footer .last .pages {
+    margin: 20px;
+    padding: 10px;
+    color: white;
+  }
+  .footer .last .pages .find {
+    margin: 20px;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    margin: 20px;
+  }
+  .footer .las .logo {
+    margin: 20px;
+    padding: 10px;
+    color: white;
+  }
+  .footer .last .logo .find {
+    margin: 20px;
+  }
+  .footer .last .logo .social {
+    margin: 20px;
+  }
+  .footer .last .logo p {
+    padding-top: 50px;
+  }
