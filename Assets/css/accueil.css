@@ -21,19 +21,6 @@
    
 }
 
-body{
-    background-image: radial-gradient(126.67% 350.28% at -21.35% 0%,
-#11213F 0%, #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%,
-rgba(2, 23, 64, 0) 100%);
- color: var(--white-color);
-}
-nav {font-family:'BEYNO';
-    font-weight: 400;
-    font-size: 20px; 
-    justify-content: space-between;
-    padding: 30px 0;
-}
-
 .blackpanther{
     background-image: url('../Illustrations + Logo/All pages/arrière_plan.png'); 
 
