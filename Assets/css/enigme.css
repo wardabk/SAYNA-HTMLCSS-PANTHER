@@ -12,3 +12,68 @@
     --blue-color:#07338C;
     --dark-blue-color:#021740;
 }
+.enigme{
+    background-image: url('../Illustrations + Logo/All pages/arrière_plan.png'); 
+
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  #navbar .left-logo img {
+    padding: 5px;
+  }
+  #navbar .menu a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: "BEYNO";
+    font-size: 17px;
+  }
+  .footer {
+    padding-left: 100px;
+    display: flex;
+    background-image: url('../Illustrations + Logo/All pages/back_footer.png');
+  }
+  .footer .last {
+    display: flex;
+  }
+  .footer .last .pages {
+    margin: 20px;
+    padding: 10px;
+    color: white;
+  }
+  .footer .last .pages .find {
+    margin: 20px;
+  }
+  ul {
+    list-style: none;
+  }
+  li {
+    margin: 20px;
+  }
+  .footer .las .logo {
+    margin: 20px;
+    padding: 10px;
+    color: white;
+  }
+  .footer .last .logo .find {
+    margin: 20px;
+  }
+  .footer .last .logo .social {
+    margin: 20px;
+  }
+  .footer .last .logo p {
+    padding-top: 50px;
+  }
+
+
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
