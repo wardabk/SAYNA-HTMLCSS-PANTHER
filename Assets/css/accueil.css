@@ -262,30 +262,28 @@
   }
   
 
-footer{
-    background-repeat: no-repeat;
+.footer{
+  padding-left: 100px;
+  display: flex;
     background-image: url('../Illustrations + Logo/All pages/back_footer.png');
 }
-.last-bg{
+.last{
     background-image: url('../Illustrations + Logo/All pages/arrière_plan.png');
     height:180px;
     background-repeat: no-repeat;
 }
 
-.footer {
-    padding-left: 100px;
-    display: flex;
-    background-image: url('../Illustrations + Logo/All pages/back_footer.png');
-  }
-  .footer .last {
+
+  .footer  {
     display: flex;
   }
-  .footer .last .pages {
+  .footer  .pages {
     margin: 20px;
     padding: 10px;
-    color: white;
+    color: var(--white-color);
+    font-family:'Cantarell';
   }
-  .footer .last .pages .find {
+  .footer .pages .find {
     margin: 20px;
   }
   ul {
@@ -294,17 +292,18 @@ footer{
   li {
     margin: 20px;
   }
-  .footer .las .logo {
+  .footer  .logo {
     margin: 20px;
     padding: 10px;
-    color: white;
+    color: var(--white-color);
   }
-  .footer .last .logo .find {
+  .footer  .logo .find {
+    margin: 20px;
+    font-family: 'Cantarell';
+  }
+  .footer  .logo .social {
     margin: 20px;
   }
-  .footer .last .logo .social {
-    margin: 20px;
-  }
-  .footer .last .logo p {
+  .footer  .logo p {
     padding-top: 50px;
   }

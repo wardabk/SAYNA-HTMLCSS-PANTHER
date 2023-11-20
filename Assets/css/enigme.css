@@ -12,10 +12,7 @@
     --blue-color:#07338C;
     --dark-blue-color:#021740;
 }
-.enigme{
-    background-image: url('../Illustrations + Logo/All pages/arrière_plan.png'); 
 
-}
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -37,15 +34,17 @@
     display: flex;
     background-image: url('../Illustrations + Logo/All pages/back_footer.png');
   }
-  .footer .last {
+  .footer .pages {
     display: flex;
   }
-  .footer .last .pages {
+  .footer  .pages {
     margin: 20px;
     padding: 10px;
-    color: white;
+    color: var(--white-color);
+    font-family: 'Cantarell';
+
   }
-  .footer .last .pages .find {
+  .footer  .pages .find {
     margin: 20px;
   }
   ul {
@@ -54,26 +53,165 @@
   li {
     margin: 20px;
   }
-  .footer .las .logo {
+  .footer  .logo {
     margin: 20px;
     padding: 10px;
-    color: white;
+    color: var(--white-color);
+    
   }
-  .footer .last .logo .find {
+  
+  .footer  .logo .find {
+    margin: 20px;
+    color: var(--white-color);
+    font-family: 'Cantarell';
+  }
+  .footer .logo .social {
     margin: 20px;
   }
-  .footer .last .logo .social {
-    margin: 20px;
-  }
-  .footer .last .logo p {
+  .footer .logo p {
     padding-top: 50px;
+    color: var(--white-color);
+    
   }
 
-
+body{
+    background-image: url('../Illustrations + Logo/All pages/arrière_plan.png'); 
+}
 
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+  }
+  #first-section #navbar {
+    background-image: linear-gradient(80deg, var(--blue-color), var(--dark-blue-color));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .first-section #navbar ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .first-section .#navbar ul li {
+    margin: 0 10px;
+    color: white;
+  
+    text-decoration: none;
+    font-family: "BEYNO";
+    font-size: 17px;
+  }
+  
+  #top-enigme {
+    display: flex;
+    flex-direction: column;
+  }
+  .enigme-1 {
+    display: flex;
+  }
+  #top-enigme .left {
+    width: 50%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #top-enigme .left .title {
+    margin: 10px 0;
+    text-decoration: none;
+    font-family: "BEYNO";
+    font-size: 68px;
+    color: var(--pink-light);
+  }
+  
+  #top-enigme .left .description {
+    padding-top: 100px;
+    background-image: url('../Illustrations + Logo/Enigme/Pantherenigme2.png');
+    align-items: center;
+    font-family: 'Cantarell',sans serif;
+    font-size:16px;
+  }
+  
+  .second-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  .second-section .left {
+    margin: 50px;
+    width: 50%;
+  }
+  .second-section .left .title2 {
+    font-family: 'Wakanda-Forever', sans-serif;
+    font-size: 43px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .second-section .left p {
+    margin-bottom: 10px;
+    font-family: 'cantarell', sans-serif;
+    font-size: 16px;
+  }
+  .second-section .right {
+    padding-top: 100px;
+    background-image: url('../Illustrations + Logo/Enigme/Pantherenigme2.png');
+    background-position: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    width: 60%;
+    background-repeat: no-repeat;
+  }
+  .second-section .right p {
+    margin-bottom: 10px;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+  }
+  .contact p {
+    color: white;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+  }
+  #navbar {
+    padding-left: 100px;
+    display: flex;
+    background-image: url(..Assets/illustrationLog/Allpages/back_footer.png);
+  }
+  
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: transparent;
+    padding-left: 100px;
+  }
+  .contact p {
+    margin: 20px;
+  }
+  .contact button {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 174px;
+    height: 54px;
+    background-color: var(--light-pink);
+    border-radius: 38px;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 16px;
+  }
+  .contact input {
+    width: 520px;
+    height: 56px;
+    padding: 10px;
+    border-radius: 38px;
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+  }
+  .button {
+    text-align: center;
   }
