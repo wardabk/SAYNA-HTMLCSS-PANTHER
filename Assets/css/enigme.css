@@ -34,19 +34,16 @@
     display: flex;
     background-image: url('../Illustrations + Logo/All pages/back_footer.png');
   }
-  .footer .pages {
-    display: flex;
-  }
+  
+
   .footer  .pages {
     margin: 20px;
     padding: 10px;
     color: var(--white-color);
     font-family: 'Cantarell';
-
+    display:block;
   }
-  .footer  .pages .find {
-    margin: 20px;
-  }
+  
   ul {
     list-style: none;
   }
@@ -59,11 +56,16 @@
     color: var(--white-color);
     
   }
-  
+  .footer .cl-pg{
+    letter-spacing: 28%;
+    font-size: 22px;
+  }
   .footer  .logo .find {
     margin: 20px;
     color: var(--white-color);
     font-family: 'Cantarell';
+    letter-spacing: 28%;
+    font-size: 22px;
   }
   .footer .logo .social {
     margin: 20px;
@@ -85,27 +87,16 @@ body{
     box-sizing: border-box;
     
   }
-  #first-section #navbar {
-    background-image: linear-gradient(80deg, var(--blue-color), var(--dark-blue-color));
+  #navbar {
+    
     display: flex;
+    background-image: url(..Assets/illustrationLog/Allpages/back_footer.png);
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     padding: 20px;
+    
   }
-  .first-section #navbar ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  .first-section .#navbar ul li {
-    margin: 0 10px;
-    color: white;
-  
-    text-decoration: none;
-    font-family: "BEYNO";
-    font-size: 17px;
-  }
-  
+ 
   #top-enigme {
     display: flex;
     flex-direction: column;
@@ -126,7 +117,7 @@ body{
     text-decoration: none;
     font-family: "BEYNO";
     font-size: 68px;
-    color: var(--pink-light);
+    color: var(--light-pink);
   }
   
   #top-enigme .left .description {
@@ -147,7 +138,7 @@ body{
     width: 50%;
   }
   .second-section .left .title2 {
-    font-family: 'Wakanda-Forever', sans-serif;
+    font-family: 'Wakanda forever';
     font-size: 43px;
     color: white;
     margin-bottom: 20px;
@@ -164,7 +155,7 @@ body{
     align-items: center;
     margin: 0 auto;
     color: white;
-    width: 60%;
+    width: 43%;
     background-repeat: no-repeat;
   }
   .second-section .right p {
@@ -172,15 +163,11 @@ body{
     font-family: 'Cantarell', sans-serif;
     font-size: 16px;
   }
+  
   .contact p {
     color: white;
     font-family: 'Cantarell', sans-serif;
     font-size: 16px;
-  }
-  #navbar {
-    padding-left: 100px;
-    display: flex;
-    background-image: url(..Assets/illustrationLog/Allpages/back_footer.png);
   }
   
 
@@ -203,6 +190,10 @@ body{
     border-radius: 38px;
     font-family: 'Cantarell', sans-serif;
     font-size: 16px;
+    text-align: center;
+  }
+  button:hover{
+    background-color: 0 0 20 var(--light-pink);
   }
   .contact input {
     width: 520px;
@@ -211,7 +202,5 @@ body{
     border-radius: 38px;
     font-family: "Cantarell", sans-serif;
     font-size: 16px;
-  }
-  .button {
-    text-align: center;
+    
   }
