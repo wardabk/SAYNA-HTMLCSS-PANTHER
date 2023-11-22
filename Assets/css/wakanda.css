@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/panthera');
+@import url('https://db.onlinewebfonts.com/c/87e0d5d6ba27de27e759ab254219b6b1?family=BEYNO');
+@import url('https://fonts.cdnfonts.com/css/wakanda-forever');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --white-color:#FFFFFF;
+    --light-pink:#F2CEF2;
+    --light-purple:#9E91B7;
+    --purple-color:#DF99F2;
+    --gradient-blue-color:#3D2DA6;
+    --blue-color:#07338C;
+    --dark-blue-color:#021740;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*header*/
+
+#navbar .menu a:hover{
+  text-decoration: underline; 
+  color:var(--purple-color);
+}
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url('../Illustrations + Logo/All pages/arrière_plan.png');
+  }
+  #navbar .left-logo img {
+    padding: 5px;
+  }
+  #navbar .menu a {
+    padding: 10px;
+    color: var(--white-color);
+    text-decoration: none;
+    font-family: "BEYNO";
+    font-size: 17px;
+  }
+/*footer*/
+  .footer{
+    padding-left: 100px;
+    display: flex;
+      background-image: url('../Illustrations + Logo/All pages/back_footer.png');
+  }
+  .last{
+      background-image: url('../Illustrations + Logo/All pages/arrière_plan.png');
+      height:180px;
+      background-repeat: no-repeat;
+  }
+  .footer  .pages {
+    margin: 20px;
+    padding: 10px;
+    color: var(--white-color);
+    font-family:'Cantarell';
+    display: block;
+  }
+  .footer .pages .find {
+    margin: 20px;
+   
+  }
+  
+  .footer  .logo {
+    margin: 20px;
+    padding: 10px;
+    color: var(--white-color);
+  }
+  .footer  .logo .find {
+    margin: 20px;
+    font-family: 'Cantarell';
+  }
+  .footer  .logo .social {
+    margin: 20px;
+  }
+  .footer  .logo p {
+    padding-top: 50px;
+  }
+/*------------------section1--------------------------*/
+.section1 {
+
+  background-image:url('../Illustrations + Logo/Wakanda/Pantherwakanda1.png');
+  background-position: center;
+  justify-content: center;
+  height: 800px;
+  flex-direction: column;
+  color:var(--white-color);
+  display: flex;
+  flex-direction:row;
+  margin:0;
+  padding:0;
+}
+.section1 .wakanda{
+  background-image: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%,
+  #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+ 
+}
+.section1 .wakanda .titre1{
+  font-family: 'panthera';
+  font-size:68px;
+  color:var(--light-purple);
+  padding:20px;
+  margin-top:10%;
+  margin-left:40px;
+}
+.section1  .wakanda .titre2{
+  font-family: 'wakanda forever';
+  font-size: 43px;
+  color:var(--light-purple);
+  padding:20px;
+  margin-left:40px;
+}
+.section1 .wakanda p{
+  font-family: Cantarell;
+  font-size: 16px;
+  color:var(--white-color);
+  padding:20px;
+  width:40%;
+  margin-left:40px;
+}
+
+#section2 {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px; 
+  background-image: radial-gradient(126.67% 350.28% at -21.35% 0%, #11213F 0%,
+  #0B0B0B 39.1%, rgba(2, 23, 64, 0.837641) 94.57%, rgba(2, 23, 64, 0) 100%);
+}
+#section2 .left-right {
+    background-image: url('../illustrations + Logo/Wakanda/Pantherwakanda2.png');
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20%;
+    background-position: top center;
+  
+  }
+
+  .section2 .left {
+    margin: 0 auto;
+    width:30%;
+  }
+  
+  
+  #section2 .left p {
+    color: var(--white-color);
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+    
+  }
+  #section2 .left a {
+    color: var(--white-color);
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+  }
+  #section2 .left h2 {
+    font-family: "BEYNO";
+    font-size: 32px;
+    color: var(--light-purple);
+    margin: 20px 0;
+  }
+  
+  .right p {
+    color: white;
+    margin: 20px;
+    font-family: "Cantarell", sans-serif;
+    font-size: 16px;
+  
+  }
+  .right h2 {
+    font-family: "BEYNO";
+    font-size: 32px;
+    color: var(--light-purple);
+  }
+
+
+  .youtube {
+    padding:20px;
+    width: 500px;
+    height: 200px;
+    background-color: var(--blue-color);
+    text-align: center;
+    margin: 20px auto;
+  }
+  .image3{
+  background-image: url('../Illustrations + Logo/Wakanda/Pantherwakanda2-1.png');
+  height:300px;
+  width:550px;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: center;
+  }

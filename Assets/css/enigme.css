@@ -12,7 +12,10 @@
     --blue-color:#07338C;
     --dark-blue-color:#021740;
 }
-
+#navbar .menu a:hover{
+  text-decoration: underline; 
+  color:var(--purple-color);
+}
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -126,6 +129,7 @@ body{
     align-items: center;
     font-family: 'Cantarell',sans serif;
     font-size:16px;
+    
   }
   
   .second-section {

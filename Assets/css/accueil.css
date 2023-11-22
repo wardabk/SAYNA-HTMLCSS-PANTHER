@@ -16,7 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}g
+}
 
 .scroll{
     display: block;
@@ -26,10 +26,13 @@
     left:10px;
    
 }
-
 .blackpanther{
     background-image: url('../Illustrations + Logo/All pages/arrière_plan.png'); 
-
+    
+}
+#navbar .menu a:hover{
+  text-decoration: underline; 
+  color:var(--purple-color);
 }
 #navbar {
     display: flex;
@@ -76,11 +79,6 @@
   .first-class .text-one a {
     font-family: "Cantarell", sans-serif;
   }
-
-
-
-
-
   .first-section {
     display: flex;
     background-color: #021740;
@@ -112,9 +110,6 @@
   a {
     color: white;
   }
-
-
-
 
   .second-section .container {
     color: white;
@@ -184,15 +179,13 @@
     font-size: 16px;
   }
 
-
-
 .final-class{
     width:82%;
     margin:20px;
     display: flex;
     
 }
-
+/*-----------------------formulaire---------*/
 .formulaire{
     
    
@@ -261,7 +254,7 @@
     border-radius: 20px;
   }
   
-
+/*-----------------------------footer-------------------*/
 .footer{
   padding-left: 100px;
   display: flex;
